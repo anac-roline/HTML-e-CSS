@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card de Perfil</title>
+    <style>
+        .card {
+            width: 300px;
+            border: 1px solid #ddd; 
+            border-radius: 10PX; /*Bordas arredondadas*/
+            padding: 20px;
+            text-align: center;
+            margin: 20px auto; /*Centraliza o card*/
+        }
+ 
+        .card img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%; /*Imagem redonda*/
+            object-fit: cover; /*Garante que a imagem não distorça*/
+            margin-bottom: 15px;
+        }
+        .card h2 {
+            color: #333;
+            font-family: Arial, sans-serif;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            color: #666;
+            line-height: 1.5;
+        }
+
+        .btn-vermais {
+            background-color: #007bff; /*Azul*/
+            color: white;
+            padding: 8px 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: Arial, sans-serif;
+            margin-top: 10px; /*Espaço Azul do botão*/
+        }
+
+        .btn-vermais:hover {
+            background-color: "#0056b3"; /* Azul mais escuro*/
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <img src="OhhhIP.jpeg" alt="Foto de perfil">
+        <h2>Marcos Alan</h2>
+        <p>Devenvolvedor Front-End apaixonado por criar interfaces incríveis</p>
+        <button class="btn-vermais">Ver Mais</button>
+        
+    </div>
+    
+</body>
+</html>
