@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Menu de Navegação</title>
+    <style>
+
+        h2 {
+            text-align: center;
+            color: lightcoral;
+        }
+        h3 {
+            text-align: center;
+            color: lightcoral;
+        }
+
+        h1 {
+            text-align: center;
+            color: lightpink;
+        }
+        /* Reset básico para remover margens padrão */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .nav-menu {
+            background-color: lightcoral; /* Cor de fundo  */
+            padding: 1rem; /* 16px */
+            display: flex; /* Ativa o Flexbox */
+            gap: 2rem; /* Espaço entre os itens */
+            justify-content: center; /* Centraliza os itens */
+        }
+
+        .nav-menu a {
+            color: white; /* Cor do texto */
+            text-decoration: none; /* Remove sublinhado */
+            font-family: Arial, sans-serif;
+        }
+
+        .nav-menu a:hover {
+            color: orange; /* Cor ao passar o mouse */
+        }
+    
+        
+        
+    </style>
+</head>
+<body>
+    <br>
+    <h1>Site Ana Caroline</h1>
+
+    <br>
+    <nav class="nav-menu">
+        <a href="#home">Home</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+        <a href="Blog">Blog</a>
+
+    </nav>
+<br>
+    <h2>O que você vai encontrar no site da Ana?</h2>
+<br>
+    <h3>Nesse site você encontrará mais sobre a Ana, e também, poderá 
+        se inspirar nos seus ensinamentos! 
+        <br>
+        😊
+    </h3>
+   
+</body>
+</html>
