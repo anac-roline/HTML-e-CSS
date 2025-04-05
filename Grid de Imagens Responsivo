@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid de Imagens</title>
+    <style>
+        .gallery {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover; /*Mantém a proporção da imagem*/
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba (0,0,0,0.1);
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease 0.1s;
+            box-shadow: 0 4px 8px rgba (0,0,0,0.2);
+            opacity: 0.9; /*Leve transparência*/
+            border: 2px solid #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <img src="OIP.jpeg" alt="Imagem 1">
+        <img src="OIP.jpeg" alt="Imagem 2">
+        <img src="OIP.jpeg" alt="Imagem 3">
+        <img src="OIP.jpeg" alt="Imagem 4">
+
+    </div>
+    
+</body>
+</html>
