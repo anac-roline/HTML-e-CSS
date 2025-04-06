@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8"> <!--Permite assentos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--responsividade em dispositivos  móveis-->
+    <title>Meu Perfil pessoal</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial sans-serif;
+            background-color: #f5f5f5; /*Cor do fundo*/
+            color: #333; /*Cor do texto principal*/
+            line-height: 1.6; /*Espaçamento entre aas linhas*/
+            padding: 20px; /*Espaçamento interno*/
+        }
+
+        .container {
+            max-width: 800px; /*Largura máxima do conteúdo*/
+            margin: 0 auto; /*Centraliza na página*/
+            background-color: white; /*Fundo branco*/
+            padding: 30px; /*Espaçamento interno*/
+            border-radius: 10px; /*Bordas arredondadas*/
+            box-shadow: 0 0 10px rgba(0,0,0,0.1); /*Sombra suave*/
+        }
+
+        .profile-pic {
+            width: 150px; /*Largura da foto*/
+            height: 150px; /*Altura da foto*/
+            border-radius: 50%; /*Transforma em círculo*/
+            object-fit: cover; /*Garante que a imagem cubra o espaço sem distorcer*/
+            display: block; /*Transform aem bloco para centralizar*/
+            margin: 0 auto 20px; /*Centraliza e adiciona margem ao texto*/
+            border: 3px solid lightcoral; /*Borda */
+        }
+
+        h1 {
+            text-align: center; /*Centraliza o texto*/
+            color: lightcoral; 
+            margin-bottom: 10px; /*Espaçamento abaixo*/
+        }
+
+        .job-title {
+            text-align: center; 
+            font-style: italic;
+            margin-bottom: 20px; /*Espaçamento abaixo*/
+            color: #666;
+        }
+
+        .bio {
+            margin-bottom: 30px; /*Espaçamento abaixo*/
+            text-align: justify; /*Texto justificado*/
+        }
+
+        .social-links {
+            display: flex; /*Ativa o Flexbox*/
+            justify-content: center; /*Centraliza os itens*/
+            margin-top: 30px; /*Espaçamento acima*/
+            
+            
+            
+        }
+
+        .social-links a{
+            color: white; /*Cor do texto*/
+            text-decoration: none; /*Remove sublinhado*/
+            background-color: lightcoral; /*Fundo verde*/
+            padding: 10px 15px; /*Espaçamento interno*/
+            border-radius: 5px; /*Bordas arredondadas*/
+            transition: background-color 0.3s; /*Transição suave de cor*/
+        }
+
+        .social-linksa:hover {
+            background-color: #45a049; /*Cor mais escura ao passar o mouse*/
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <!--Corpo vísivel da página-->
+
+    <div class="container">
+        <!--Container principal-->
+
+        <img src="OhhhIP.jpeg" alt="Minha foto de perfil" class="profile.pic">
+        <!--Imagem de perfil com classe para estilização-->
+
+        <h1>Caroline Leal</h1>
+        <!--Título principal-->
+
+        <p class="job-title">Desenvolvedora Front-End</p>
+        <!--Subtítulo com classe-->
+
+        <div class="bio">
+            <!--Seção de biografia-->
+
+            <p>Olá! Sou desenvolvedora front-end com 3 anos de experiência.
+                Especializada em HTML, CSS e JavaScript, adoro transformar
+                designs em código funcional e acessível.
+            </p>
+            <p>Quando não estou programando, gosto de fotografar paisagens
+                e aprender sobre design UX/UI.
+            </p>
+        </div>
+
+        <div class="social-links">
+            <!--Links sociais-->
+
+            <a href="http://linkedin.com/in/ana-c-l-nascimento-171680111">LinkeIn</a>
+            <!--Link externo abre em nova aba-->
+
+            <a href="https://github.com/anac-roline">GitHub</a>
+
+            <a href="lealanacaroline00@gmail.com">E-mail</a>
+        </div>
+
+    </div>
+    
+</body>
+</html>
