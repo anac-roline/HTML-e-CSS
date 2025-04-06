@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <style>
+        article {
+            max-width:800px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba (0,0,0,0.1);
+        }
+
+        article h2 {
+            color: #333;
+            font-family: Arial, sans-serif;
+            margin-bottom: 1rem;
+        }
+
+        article p {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+
+        .post-date {
+            color: #999;
+            font-size: 0.9rem;
+        }
+
+        /*Layout principal*/
+
+        .container {
+            display: flex; /* Ativa Flexbox*/
+            max-width: 1200px;
+            margin: 0 auto;
+            gap: 2rem; /*Espaço entre sidebar e posts*/
+        }
+
+        /*Barra lateral*/
+        .sidebar {
+            width: 250px;
+            padding: 1rem;
+            background-color: #f5f5f5;
+            border-radius: 8px;
+            height: fit-content; /* Ajusta à altura do conteúdo*/
+        }
+
+        .sidebar h3 {
+            color: #333;
+            font-family: Arial, sans-serif;
+            margin-bottom: 1rem;
+        }
+
+        .sidebar ul {
+            list-style: none; /*Remove marcadores*/
+            padding-left: 0;
+        }
+
+        .sidebar li {
+            margin-bottom: 0.5rem;
+        }
+
+        .sidebar a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .sidebar a:hover {
+            text-decoration: underline;
+        }
+
+        /*Área de posts*/
+
+        .posts {
+            flex: 1; /*Ocupa o espaço restante*/
+        }
+
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <h3>Categorias</h3>
+            <ul>
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">JavaScript</a></li>
+            </ul>
+        </aside>
+    </div>
+
+    <div class="posts">
+    <article>
+        <h2>Meu Primeiro Post</h2>
+        <p class="post-date">Publicado em 05 de Abril de 2025</p>
+
+        <p>Essa publicação é a primeira que estou fazendo,
+            vamos abordar um pouco sobre o assunto: faculdade.
+            Eu estou fazendo graduação no curso de Ciência da Computação,
+            que dura 4 anos. Atualmente estou no 2 semestre,
+            e doida para arrumar um estágio. Estou enviando curriculo
+            para as vagas que aparecem. O fato é que quero
+            me tornar uma profissional excelente. 
+        </p>
+    </article>
+    <article>
+
+        <h2>Agora vamos falar um pouco sobre a motivação para estudar HTML/CSS
+        </h2>
+        <p class="post-date">Publicado em 05 de Abril de 2025</p>
+
+        <p> Como arrumar motivação para continuar estudanto?
+            A maturidade, que é quando se tem mais de 18 anos de idade,
+            diz que devemos fazer o que tem que ser feito,
+            mesmo sem vontade. Então, aquele dia que você acorda,
+            sem vontade de ir para a faculdade, por exemplo, você 
+            só levanta e vai, nem sempre estamos
+            com aquela super vontade de fazer algo, mas se você é uma
+            pessoa madura, vai conseguir, e chegando lá, as vezes, você
+            fica super feliz, super motivado. Só precisou sair da cama. 
+        </p>
+
+        </article>
+        </div>
+    </div>
+    
+        
+
+    
+</body>
+</html>
